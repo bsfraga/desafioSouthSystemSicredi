@@ -2,8 +2,7 @@
 
 Framework de testes utilizado na validação do [Desafio QA](https://github.com/rh-southsystem/desafio-qa).
 
-![Imgur](https://imgur.com/uUPimzs)
-
+![](example_test_run.gif)
 
 
 ## Relatório de Testes
@@ -48,6 +47,7 @@ O objetivo deste teste é avaliar como o serviço da aplicação se comporta com
 
 ## Framework
 Desenvolvido em Java, o framework utiliza junto do jUnit5, Cucumber (BDD), RestAssured (API) e Selenium (Interface Web).
+O framework também utiliza Extent Reports para a geração de reports de testes.
 
 OBS: o framework está atualmente configurado para utilizar paralelismo.
 
@@ -59,7 +59,7 @@ mvn clean test
 ```
 ## Processo de Testes
 
-Inicialmente, testes funcionais foram executados. Visando melhor entendimento do fluxo de execução dos critérios de aceitação. Em seguida, foi feito o levantamento da necessidade de dados (quais dados seriam utilizados e como) para que fosse possível a criação de casos de teste em formado BDD, tornando assim os estes mais intuitivos para qualquer pessoa que queira entender o fluxo da funcionalidade assim como dos testes em si.
+Inicialmente, testes funcionais foram executados. Visando melhor entendimento do fluxo de execução dos critérios de aceitação. Em seguida, foi feito o levantamento da necessidade de dados (quais dados seriam utilizados e como) para que fosse possível a criação de casos de teste em formato BDD, tornando assim os testes mais intuitivos para qualquer pessoa que queira entender o fluxo da funcionalidade assim como dos testes em si.
 
 Após a criação dos BDDs foram criados os códigos que executam a automação de fato. Utilizando o padrão de projetos "Page-Objects". 
 ```
