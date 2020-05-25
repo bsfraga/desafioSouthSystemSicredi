@@ -46,7 +46,7 @@ O objetivo deste teste é avaliar como o serviço da aplicação se comporta com
 ![Validar serviço do Simulador de Investimento Sicredi](https://i.imgur.com/uUPimzs.png)
 
 ## Framework
-Desenvolvido em Java, o framework utiliza junto do jUnit5, Cucumber (BDD), RestAssured (API) e Selenium (Interface Web).
+Desenvolvido em Java, o framework utiliza junto do jUnit, Cucumber (BDD), RestAssured (API) e Selenium (Interface Web).
 O framework também utiliza Extent Reports para a geração de reports de testes.
 
 OBS: o framework está atualmente configurado para utilizar paralelismo.
