@@ -57,14 +57,6 @@ public class Utils {
         Report.logFail(message, ScreenshotManager.capture(getDriver()));
     }
 
-    /**
-     * This method return a valid CNPJ.
-     *
-     * @return String CNPJ
-     */
-    public String getCNPJ() {
-        return Cnpj.getOneCNPJ();
-    }
 
     /**
      * This method perform a click on an Element using a WebElement.
